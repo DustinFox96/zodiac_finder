@@ -16,7 +16,7 @@ namespace zodiac_finder_
             int day = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("What is your birth month?");
-            var month = Console.ReadLine();
+            var month = Console.ReadLine().ToLower();
 
            
 
